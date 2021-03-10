@@ -1,0 +1,22 @@
+#display-leauge{
+    margin-top: 100px;
+}
+.single-display{
+    border:1px solid gray;    
+    padding:15px;
+    float: left;
+    height:350px;
+    text-align:center;
+    background-color:purple;
+    color:#fff;
+    
+    
+}
+
+.single-display button{
+    
+}
+
+.single{
+    margin:10px;
+}

@@ -1,0 +1,82 @@
+[
+    {   "id":1,
+        "name": "English Premier League",
+        "img" :"https://ibb.co/CMCRYkk"
+    },
+    {
+        "id":2,
+        "name": "English League Championship",
+        "img" :"https://ibb.co/3NfrjDq"
+    },
+    {
+        "id":3,
+        "name": "Scottish Premier League",
+        "img" :"https://ibb.co/HPSTC5c"
+    },
+    {
+        "id":4,
+        "name": "German Bundesliga",
+        "img" :"https://ibb.co/TBVhQ0Z"
+    },
+    {
+        "id":5,
+        "name": "Italian Serie A",
+        "img" :"https://ibb.co/BPypTS1"
+    },
+    {
+        "id":6,
+        "name": "French Ligue 1",
+        "img" :"https://ibb.co/NLRGpPq"
+    },
+    {
+        "id":7,
+        "name": "La Liga Santander",
+        "img" :"https://ibb.co/By2RLGQ"
+    },
+    {
+        "id":8,
+        "name": "Greek Superleague Greece",
+        "img" :"https://ibb.co/QYxF3Bb"
+    },
+    {
+        "id":9,
+        "name": "Dutch Eredivisie",
+        "img" :"https://ibb.co/PmYpyfr"
+    },
+    {
+        "id":10,
+        "name": "Jupiler Pro League",
+        "img" :"https://ibb.co/VDXvx0x"
+    },
+    {
+        "id":11,
+        "name": "Turkish Super Lig",
+        "img" :"https://ibb.co/0QMqRk0"
+    },
+    {
+        "id":12,
+        "name": "Danish Superliga",
+        "img" :"https://ibb.co/s6m8fJY"
+    },
+    {
+        "id":13,
+        "name": "Portuguese Primeira Liga",
+        "img" :"https://ibb.co/Y0nhMgh"
+    },
+    {
+        "id":14,
+        "name": "American Major League Soccer",
+        "img" :"https://ibb.co/br648tz"
+    },
+    {
+        "id":15,
+        "name": "Swedish Allsvenskan",
+        "img" :"https://ibb.co/Bng2p7q"
+    },
+    {
+        "id":16,
+        "name": "Mexican Primera League",
+        "img" :"https://ibb.co/SmpRBZf"
+    }
+    
+]
