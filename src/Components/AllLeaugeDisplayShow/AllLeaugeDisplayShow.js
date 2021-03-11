@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/style-prop-object */
+/* eslint-disable jsx-a11y/img-redundant-alt */
 
 import './allLeaugeDisplayShow.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,19 +17,17 @@ const AllLeaugeDisplayShow = (props) => {
     }
 
     return (
-        <div id="display-leauge">
-            <div className="single">
-                <div className="single-display col-12 col-sm-6 col-md-4 col-xl-3">
-                    <div className="btn-floating my-4">
-                        <h4>{strLeague}</h4>
-                        <p>Sports Type: Football</p>
-                    </div>
+        <div id="display-leauge" className="">
+            <div className="card col-12 col-sm-6 col-md-4 col-lg-3" >
+                <div className="card-body">
+                    <h4 className="card-title">{strLeague}</h4>
+                    <p className="card-text">Sports Type: Football</p>
                     <div className="btn">
-                        <button onClick={() => handleClick(idLeague)} type="button" className="btn btn-primary">Explore <FontAwesomeIcon icon={faAngleDoubleRight} />
-                        </button>
-                    </div>
+                    <button onClick={() => handleClick(idLeague)} type="button" className="btn btn-primary">Explore <FontAwesomeIcon icon={faAngleDoubleRight} />
+                    </button>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

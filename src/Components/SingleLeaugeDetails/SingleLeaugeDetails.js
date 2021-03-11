@@ -10,7 +10,7 @@ import { faFacebookF, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-
 const SingleLeaugeDetails = () => {
     let { idLeague } = useParams();
     const [leaugeDetails, setLeaugeDetails] = useState({})
-    // console.log(leaugeDetails)
+    console.log(leaugeDetails)
     useEffect(() => {
         const url = `https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`;
         fetch(url)
@@ -25,16 +25,20 @@ const SingleLeaugeDetails = () => {
         <div>
             <img id="banner-img" src={leaugeDetails.strBanner} alt="banner" />
             <div id="header-details">
-                <div className="row col-12  col-md-6">
-                    <div className="head-details-left   ">
+                <div className="row ">
+                    <div className="head-details-left  col-6 ">
                         <h3 className="my-4">{leaugeDetails.strLeague}</h3>
                         <p><FontAwesomeIcon icon={faPodcast} />  Founded: {leaugeDetails.intFormedYear}</p>
                         <p><FontAwesomeIcon icon={faFlag} /> Country: {leaugeDetails.strCountry}</p>
                         <p className=""><FontAwesomeIcon icon={faFutbol} /> Sports Type: Football</p>
                         <p><FontAwesomeIcon icon={faMarsStroke} />  Gender: {leaugeDetails.strGender}</p>
                     </div>
-                    <div className="head-details-right  ">
-                        <img id="logo-img" src={leaugeDetails.strBadge} alt="logo" />
+                    <div className="head-details-right col-6 ">
+                    <img id="logo-img" src={leaugeDetails.strFanart4} alt="logo" /> 
+                    
+                    {/* x = 3 , x === 3 ? '3' : 'empty' */}
+                    {/* I know the conditional rendering, but i don't see any option here, so i couldn't give it, sorry  */}
+                    {/* if the site does not work properly, reload and let me know why this is a problem */}
                     </div>
                 </div>
 

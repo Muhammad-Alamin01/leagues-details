@@ -2,7 +2,7 @@
     width:100%;
 }
 #header-details{
-    width:80%;
+    max-width:100%;
     margin:0 auto;
     background:green;
     padding:70px;
@@ -10,14 +10,14 @@
 }
 .head-details-left p{
     
-    font-size:18px;
+    font-size:15px;
 }
 .head-details-right{
     
     text-align:right;
 }
 .head-details-left{
-    width: 50%;
+    max-width:47%;
     float: left;
     
 }
@@ -60,6 +60,14 @@
 
 
 /* responsive design */
+
+@media (max-width:600px){
+    .head-details-left{
+        max-width:96%;
+        
+        
+    }
+}
 @media (max-width:500px){
     .head-details-left p{
         font-size:14px;
@@ -78,6 +86,10 @@
     .head-details-right{
         text-align:center;
         margin-top:20px;
+    }
+    .head-details-right{
+    
+        text-align:center;
     }
 }
 @media (max-width:250px){
