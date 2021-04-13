@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFlag, faFutbol, faMarsStroke, faPodcast } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 const SingleLeaugeDetails = () => {
@@ -50,7 +51,7 @@ const SingleLeaugeDetails = () => {
             </div>
             <div id="social-link">
                 <ul>
-                    <li><a href={leaugeDetails.strFacebook}><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                    <li><a href= {leaugeDetails.strFacebook}><FontAwesomeIcon icon={faFacebookF}/></a></li>
                     <li><a href={leaugeDetails.strTwitter}><FontAwesomeIcon icon={faTwitter} /></a></li>
                     <li><a href={leaugeDetails.strYoutube}><FontAwesomeIcon icon={faYoutube} /></a></li>
                 </ul>
