@@ -18,10 +18,6 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          {/* root  */}
-          <Route exact="true" path="/">
-            <Home />
-          </Route>
           {/* home */}
           <Route path="/home">
             <Home />
@@ -29,6 +25,10 @@ function App() {
           {/* dynamic route */}
           <Route path="/leauge-details/:idLeague">
             <SingleLeaugeDetails />
+          </Route>
+          {/* root  */}
+          <Route exact="true" path="/">
+            <Home />
           </Route>
           {/* not found */}
           <Route path="*">

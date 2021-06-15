@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const SingleLeaugeDetails = () => {
     let { idLeague } = useParams();
-    const [leaugeDetails, setLeaugeDetails] = useState({})
+    const [leaugeDetails, setLeaugeDetails] = useState([]);
     console.log(leaugeDetails)
     useEffect(() => {
         const url = `https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`;
