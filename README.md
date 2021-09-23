@@ -18,6 +18,4 @@ Couldn't solve this problem, Please let me know when to give the marks of the as
 
 *****Problem this Application *****
 //Clicking on the social link that has been used dynamically in this application breaks the site, does not browse to the url mentioned in it. But correct url has been used dynamically.          WHY???
-
-
   -->
